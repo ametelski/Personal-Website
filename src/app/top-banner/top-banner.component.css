@@ -1,0 +1,16 @@
+
+.banner {
+  font-size: 4em;
+  color: white;
+  letter-spacing: 2px;
+  pointer-events: none;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.top-banner-image {
+  width: 100%;
+  object-fit: contain;
+}
