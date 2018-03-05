@@ -13,7 +13,6 @@ export class NavbarComponentComponent implements OnInit {
   }
 
   scroll(el) {
-    
     el.scrollIntoView();
   }
 
