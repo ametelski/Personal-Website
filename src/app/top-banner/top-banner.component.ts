@@ -72,7 +72,7 @@ export class TopBannerComponent implements OnInit {
 
             ctx.arc(x, y , 100, 0, this.TAU, false);
             ctx.fill();
-            //console.log("( " + x + ", " + y + ")");
+
           }
       };
 
@@ -85,7 +85,7 @@ export class TopBannerComponent implements OnInit {
 
   update() {
     const diff = Date.now() - this.lastTime;
-      for (let frame = 0; frame * 16.6667 < diff; frame++) {
+      for (let frame = 0; frame * 100 < diff; frame++) {
         for (let index = 0; index < this.balls.length; index++) {
           this.balls[index]._update(this.canvasEl);
       }

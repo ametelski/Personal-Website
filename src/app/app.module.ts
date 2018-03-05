@@ -7,6 +7,7 @@ import { NavbarComponentComponent } from './navbar-component/navbar-component.co
 import { RouterModule, Routes } from '@angular/router';
 import { TopBannerComponent } from './top-banner/top-banner.component';
 import { BioComponent } from './bio/bio.component';
+import { ProjectsComponentComponent } from './projects-component/projects-component.component';
 
 const appRoutes: Routes = [
   { path: '',
@@ -21,7 +22,8 @@ const appRoutes: Routes = [
     AppComponent,
     NavbarComponentComponent,
     TopBannerComponent,
-    BioComponent
+    BioComponent,
+    ProjectsComponentComponent
   ],
   imports: [
     BrowserModule
