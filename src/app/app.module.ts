@@ -8,6 +8,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { TopBannerComponent } from './top-banner/top-banner.component';
 import { BioComponent } from './bio/bio.component';
 import { ProjectsComponentComponent } from './projects-component/projects-component.component';
+import { ScrollToModule } from 'ng2-scroll-to-el';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 const appRoutes: Routes = [
   { path: '',
@@ -26,7 +28,9 @@ const appRoutes: Routes = [
     ProjectsComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ScrollToModule.forRoot(),
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

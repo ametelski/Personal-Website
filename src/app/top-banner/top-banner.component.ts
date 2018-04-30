@@ -95,7 +95,7 @@ export class TopBannerComponent implements OnInit {
 
   draw() {
     this.ctx.globalAlpha = 1;
-    this.ctx.fillStyle = '#001c33';
+    this.ctx.fillStyle = '#2d3047';
     this.ctx.fillRect(0, 0 , this.canvasEl.width, this.canvasEl.height);
   for (let index = 0; index < this.balls.length; index++) {
     const ball = this.balls[index];
